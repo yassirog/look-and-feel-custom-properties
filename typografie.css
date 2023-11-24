@@ -1,0 +1,70 @@
+:root {
+  /* When using a margin left or right */
+  --medium-margin: 3rem;
+
+  /* Font-weights from light to bold */
+  --font-light: 500;
+  --font-bold: 600;
+
+}
+
+body {
+  font-family: 'Open Sans', sans-Serif;
+}
+
+.Raleway {
+font-family: 'Raleway', sans-serif;
+font-size: 3rem;
+}
+
+.h2 {
+  color: black;
+}
+
+.vijfhonderd {
+font-weight: 500;
+}
+
+.zeshonderd {
+font-weight: 600;
+}
+
+.vijftienrem {
+font-size: 1.5rem;
+}
+
+.zestienrem {
+font-size: 1.6rem;
+}
+
+.eenrem {
+font-size: 1rem;
+}
+
+.eerste {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.verzin {
+margin-left: var(--medium-margin);
+margin-right: var(--medium-margin);
+font-family: 'Raleway', sans-serif;
+font-weight: 600;
+}
+
+.verzin2 {
+margin-left: var(--medium-margin);
+margin-right: var(--medium-margin);
+font-family: 'Raleway', sans-serif;
+font-weight: 600;
+}
+
+.aa {
+font-size: 2rem;
+}
+
+li {
+list-style: none;
+}
