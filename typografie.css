@@ -14,7 +14,7 @@ body {
 
 .Raleway {
 font-family: 'Raleway', sans-serif;
-font-size: 3rem;
+font-size: var(--medium-margin);
 }
 
 .h2 {
@@ -22,11 +22,11 @@ font-size: 3rem;
 }
 
 .vijfhonderd {
-font-weight: 500;
+font-weight: var(--font-light);
 }
 
 .zeshonderd {
-font-weight: 600;
+font-weight: var(--font-bold);
 }
 
 .vijftienrem {
@@ -51,14 +51,14 @@ justify-content: center;
 margin-left: var(--medium-margin);
 margin-right: var(--medium-margin);
 font-family: 'Raleway', sans-serif;
-font-weight: 600;
+font-weight: var(--font-bold);
 }
 
 .verzin2 {
 margin-left: var(--medium-margin);
 margin-right: var(--medium-margin);
 font-family: 'Raleway', sans-serif;
-font-weight: 600;
+font-weight: var(--font-bold);
 }
 
 .aa {
